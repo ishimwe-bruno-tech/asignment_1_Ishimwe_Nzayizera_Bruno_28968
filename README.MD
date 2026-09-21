@@ -4,6 +4,7 @@
 **ID:** 28968
 **Database Used:** MYSQL
 
+
 ## Scenario
 
 Sunrise Supermarket is a retail store that sells different types of products, including groceries and household goods. Customers from different locations visit the supermarket to purchase products.
@@ -28,11 +29,11 @@ FROM customers c
 JOIN orders o
     ON c.customer_id = o.customer_id
 ORDER BY o.order_date;
-```
+````
 
 ### Screenshot
 
-![Customer Orders](https://raw.githubusercontent.com/ishimwe-bruno-tech/asignment_1_Ishimwe_Nzayizera_Bruno_28968/main/SCREENSHOOT/1.png)
+![Customer Orders](https://raw.githubusercontent.com/ishimwe-bruno-tech/asignment_1_Ishimwe_Nzayizera_Bruno_28968/main/screenshots/1.png)
 
 ---
 
@@ -57,7 +58,7 @@ ORDER BY oi.order_item_id;
 
 ### Screenshot
 
-![Order Item Details](https://raw.githubusercontent.com/ishimwe-bruno-tech/asignment_1_Ishimwe_Nzayizera_Bruno_28968/main/SCREENSHOOT/2.png)
+![Order Item Details](https://raw.githubusercontent.com/ishimwe-bruno-tech/asignment_1_Ishimwe_Nzayizera_Bruno_28968/main/screenshots/2.png)
 
 ---
 
@@ -84,7 +85,7 @@ ORDER BY
 
 ### Screenshot
 
-![Customers and Orders](https://raw.githubusercontent.com/ishimwe-bruno-tech/asignment_1_Ishimwe_Nzayizera_Bruno_28968/main/SCREENSHOOT/3.png)
+![Customers and Orders](https://raw.githubusercontent.com/ishimwe-bruno-tech/asignment_1_Ishimwe_Nzayizera_Bruno_28968/main/screenshots/3.png)
 
 ---
 
@@ -122,7 +123,7 @@ ORDER BY ss.total_spent DESC;
 
 ### Screenshot
 
-![Customers Spending Above Average](https://raw.githubusercontent.com/ishimwe-bruno-tech/asignment_1_Ishimwe_Nzayizera_Bruno_28968/main/SCREENSHOOT/4.png)
+![Customers Spending Above Average](https://raw.githubusercontent.com/ishimwe-bruno-tech/asignment_1_Ishimwe_Nzayizera_Bruno_28968/main/screenshots/4.png)
 
 ---
 
@@ -158,7 +159,7 @@ ORDER BY spending_rank;
 
 ### Screenshot
 
-![Customer Spending Ranking](https://raw.githubusercontent.com/ishimwe-bruno-tech/asignment_1_Ishimwe_Nzayizera_Bruno_28968/main/SCREENSHOOT/5.png)
+![Customer Spending Ranking](https://raw.githubusercontent.com/ishimwe-bruno-tech/asignment_1_Ishimwe_Nzayizera_Bruno_28968/main/screenshots/5.png)
 
 ---
 
@@ -188,7 +189,7 @@ ORDER BY
 
 ### Screenshot
 
-![Customer Order Sequence](https://raw.githubusercontent.com/ishimwe-bruno-tech/asignment_1_Ishimwe_Nzayizera_Bruno_28968/main/SCREENSHOOT/6.png)
+![Customer Order Sequence](https://raw.githubusercontent.com/ishimwe-bruno-tech/asignment_1_Ishimwe_Nzayizera_Bruno_28968/main/screenshots/6.png)
 
 ---
 
@@ -228,7 +229,7 @@ ORDER BY
 
 ### Screenshot
 
-![Running Revenue](https://raw.githubusercontent.com/ishimwe-bruno-tech/asignment_1_Ishimwe_Nzayizera_Bruno_28968/main/SCREENSHOOT/7.png)
+![Running Revenue](https://raw.githubusercontent.com/ishimwe-bruno-tech/asignment_1_Ishimwe_Nzayizera_Bruno_28968/main/screenshots/7.png)
 
 ---
 
@@ -265,6 +266,6 @@ ORDER BY
 
 ### Screenshot
 
-![Days Between Orders](https://raw.githubusercontent.com/ishimwe-bruno-tech/asignment_1_Ishimwe_Nzayizera_Bruno_28968/main/SCREENSHOOT/8.png)
+![Days Between Orders](https://raw.githubusercontent.com/ishimwe-bruno-tech/asignment_1_Ishimwe_Nzayizera_Bruno_28968/main/screenshots/8.png)
 
 ---
